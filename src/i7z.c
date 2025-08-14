@@ -23,6 +23,7 @@
 #include "i7z.h"
 
 struct program_options prog_options;
+struct timespec global_ts;
 
 int Single_Socket();
 int Dual_Socket();
